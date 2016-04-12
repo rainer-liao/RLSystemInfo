@@ -21,7 +21,7 @@ MemoryInfo is from https://github.com/Shmoopi/iOS-System-Services .
 ## 使用方法
 ```objc
 // All system Information
-NSDictionary *dict = [[RLSystemInfo sharedInstance]allSystemInformation];
+NSDictionary *dict = [[RLSystemInfo sharedInstance] allSystemInformation];
 
 // userPhoneName
 NSString *userPhoneName = [[RLSystemInfo sharedInstance] userPhoneName];
