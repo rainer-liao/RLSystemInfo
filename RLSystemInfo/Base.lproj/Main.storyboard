@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="3kb-4I-hCv">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--ExampleVC-->
+        <scene sceneID="fXB-K5-alZ">
+            <objects>
+                <viewController storyboardIdentifier="RLExampleVC" useStoryboardIdentifierAsRestorationIdentifier="YES" id="3kb-4I-hCv" customClass="RLExampleVC" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="9zy-Zq-kTq"/>
+                        <viewControllerLayoutGuide type="bottom" id="RMX-f7-xe0"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Pyu-0x-csd">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AJ9-A8-TMM">
+                                <rect key="frame" x="261" y="281" width="78" height="38"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                <state key="normal" title="printLog"/>
+                                <connections>
+                                    <action selector="printLog:" destination="3kb-4I-hCv" eventType="touchUpInside" id="Fg0-ma-7Av"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="AJ9-A8-TMM" firstAttribute="centerY" secondItem="Pyu-0x-csd" secondAttribute="centerY" id="Wfi-Lo-JhV"/>
+                            <constraint firstItem="AJ9-A8-TMM" firstAttribute="centerX" secondItem="Pyu-0x-csd" secondAttribute="centerX" id="dUS-0o-bvm"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="l8A-mQ-d6h" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="546" y="511"/>
+        </scene>
+    </scenes>
+</document>
