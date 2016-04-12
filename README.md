@@ -18,7 +18,7 @@ This is a singleton class to gather some available information about your iPhone
 
 MemoryInfo is from https://github.com/Shmoopi/iOS-System-Services . 
 
-## 使用方法
+## How To Use  使用方法
 ```objc
 // All system Information
 NSDictionary *dict = [[RLSystemInfo sharedInstance] allSystemInformation];
