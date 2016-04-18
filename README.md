@@ -18,6 +18,8 @@ This is a singleton class to gather some available information about your iPhone
 
 MemoryInfo is from https://github.com/Shmoopi/iOS-System-Services . 
 
+针对某些项目特定的信息, 比如自己的项目是否处于正式环境, 某些配置选项情况等, 也建议大家放在一起,方便调用.
+
 ## How To Use  使用方法
 ```objc
 // All system Information
